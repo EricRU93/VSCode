@@ -1,22 +1,21 @@
-root {
-    --ancho: 16rem;
-    --alto: 12rem;
-}
 
 .bandera1, .bandera2 {
   display: inline-block;
-  height: var (var(--alto));
-  width: var (var(--ancho));
+  height: 12rem;
+  width: 16rem;
 }
 
 .cajaroja {
   display: inline-block;
-  height: 16rem;
+  background-color: red;
+  height: 100%;
   width: 15%;
 }
 
 .franjas {
 display: inline-block;
+height: 100%;
+width: 83%;
 }
 
 .rojo1 {
@@ -24,13 +23,6 @@ display: inline-block;
   background-color: red;
   height: 33.33%;
   width: 100%;
-}
-
-.rojo2 {
-  display: inline-block;
-  background-color: red;
-  height: 100%;
-  width: 15%;
 }
 
 .amarillo {
@@ -44,19 +36,19 @@ display: inline-block;
   display: block;
   background-color: darkgreen;
   height: 33.33%;
-  width: 130px;
+  width: 85%;
 }
 
 .blanco {
   display: block;
   background-color: white;
   height: 33.33%;
-  width: 130px;
+  width: 85%;
 }
 
 .negro {
   display: block;
   background-color: black;
   height: 33.33%;
-  width: 130px;
+  width: 85%;
 }
