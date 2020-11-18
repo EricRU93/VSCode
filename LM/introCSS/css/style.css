@@ -1,3 +1,80 @@
-h1{
-    color: cornflowerblue;
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+body {
+  background-image: url(https://fondosmil.com/fondo/34254.jpg);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+h1 {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+body {
+  font-family: 'Goldman', cursive;
+  color: rgb(255, 255, 255);
+}
+
+main {
+  display: inline-block;
+  width: 70%;
+}
+
+.marcoprincipal {
+    font-family: 'Goldman', cursive;
+    border: 4px solid black;
+    border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    padding: 10px;
+    margin: 20px;
+    background-size: cover;
+    background-image: url(https://www.celestronmexico.com/wp-content/uploads/2019/01/celestronMexico_bg.jpg);
+
+}
+.marco1 {
+  border: 4px solid black;
+  border-radius: 24px 24px 24px 24px;
+  -moz-border-radius: 24px 24px 24px 24px;
+  -webkit-border-radius: 24px 24px 24px 24px;
+  padding: 10px;
+  margin: 20px;
+  background-size: cover;
+  background-image: url(https://www.celestronmexico.com/wp-content/uploads/2019/01/celestronMexico_bg.jpg);
+  display: inline-block;
+  width: 13%;
+}
+.marco2 {
+  border: 4px solid black;
+  border-radius: 24px 24px 24px 24px;
+  -moz-border-radius: 24px 24px 24px 24px;
+  -webkit-border-radius: 24px 24px 24px 24px;
+  padding: 10px;
+  margin: 5px;
+  display: block;
+  background-size: cover;
+  text-align: center;
+  background-image: linear-gradient(#3ea9cf, #0c3879);
+}
+
+.marco2:hover{
+  background-image: linear-gradient(#acb439, #790c5a);
+}
+
+.caja1 {
+  background-color: hotpink;
+  height: 20px;
+  display:inline-block;
+  width: 59%;
+}
+.caja2 {
+  background-color: rgb(19, 68, 28);
+  height: 20px;
+  display:inline-block;
+  width: 40%;
 }
