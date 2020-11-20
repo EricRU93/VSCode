@@ -1,0 +1,89 @@
+.cuadrado {
+  height: 24rem;
+  width: 36rem;
+  background-color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+.subcuadrado1 {
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+.subcuadrado2 {
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+.amarillo {
+  display: inline-block;
+  height: 100%;
+  width: 33.33%;
+  background-color: rgb(255, 238, 0);
+}
+.blanco {
+  display: inline-block;
+  height: 100%;
+  width: 33.33%;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.logo {
+  height: 12rem;
+  width: 12rem;  
+  margin-left: auto;
+  margin-right: auto;
+}
+.sublogo1 {
+    display: block;
+    height: 49%;
+    width: 100%;
+}
+.blancohorizontal {
+    display: block;
+    height: 2%;
+    width: 100%;
+    background-color: white;
+}
+.blancovertical {
+    display: inline-block;
+    height: 100%;
+    width: 2%;
+    background-color: white;
+}
+.sublogo2 {
+    display: block;
+    height: 49%;
+    width: 100%;
+}
+.rojo {
+    display: inline-block;
+    border-radius: 24px 0px 24px 0px;
+    height: 100%;
+    width: 49%;
+    background-color: red;
+}
+.verde {
+    display: inline-block;
+    border-radius: 0px 24px 0px 24px;
+    height: 100%;
+    width: 49%;
+    background-color: green;
+}
+.azul {
+    display: inline-block;
+    border-radius: 0px 24px 0px 24px;
+    height: 100%;
+    width: 49%;
+    background-color: blue;
+}
+.ocre {
+    display: inline-block;
+    border-radius: 24px 0px 24px 0px;
+    height: 100%;
+    width: 49%;
+    background-color: orange;
+}
+
+
